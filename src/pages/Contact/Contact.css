@@ -1,0 +1,29 @@
+.leftCont {
+    border-radius: 15px;
+    border: 0.5px solid #1141a8d1;
+    padding: 45px 45px 30px;
+
+}
+
+.rihgtCont {
+    border-radius: 15px;
+    background: #EBEBEB;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+    padding: 45px 45px 30px;
+
+}
+
+.btn_Cont {
+    border-radius: 10px;
+    background: #003197;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn_Cont:hover{
+    box-shadow: 0px 5px 15px rgba(4, 6, 51, 0.879);
+    transform: scale(0.95);
+}

@@ -1,0 +1,105 @@
+.Select {
+    border-radius: 5px;
+    border: 1px solid #ADADAD;
+    padding: 8px;
+}
+
+.btnInst {
+    border-radius: 5px;
+    background: #003197;
+    padding: 8px;
+}
+
+.btnInst:hover,
+.btnInst1:hover {
+    border-radius: 5px;
+    background: #284d9e;
+    padding: 8px;
+    transform: scale(0.98);
+    box-shadow: 0px 5px 15px #756b6b;
+}
+
+.Quotations {
+    border-radius: 7px;
+    border: 0.0001px solid #e9e4e4;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.main-1B .left {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0px 1px 10px 0px rgba(138, 127, 127, 0.828); */
+}
+
+.btnInst1 {
+    margin-top: 30px;
+    border-radius: 5px;
+    background: #003197;
+    padding: 8px;
+
+}
+
+
+.contOne {
+    border-radius: 15px;
+    background: #fffefe;
+    /* box-shadow: 0px 0px 15px 0px rgba(110, 108, 108, 0.879); */
+    padding: 45px 45px 30px;
+
+}
+
+.btn_Cont {
+    border-radius: 10px;
+    border: 1px solid #003973;
+    background: #003197;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn_Cont:hover {
+    border-radius: 10px;
+    background: #284d9e;
+    border: 1px solid #284d9e;
+    box-shadow: 0px 10px 10px #756b6b;
+}
+
+.input {
+    position: relative;
+    margin: 15px 0px 0px;
+}
+
+.input__field {
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font: inherit;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #c2bfbf;
+
+}
+
+.input__label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(10px, 10px);
+    transform-origin: left;
+    transition: transform 0.25s;
+}
+
+.input__field:focus-visible~.input__label,
+.input__field:valid~.input__label {
+    transform: translate(0, -30px) scale(0.8);
+    color: #686464;
+}
+
+.input__field:is(:focus-visible, :valid) {
+    outline-color: #d8d5d5;
+}  

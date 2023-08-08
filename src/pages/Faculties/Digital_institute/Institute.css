@@ -1,0 +1,39 @@
+.left2A {
+    margin-top: 40px;
+    border-top: 2px solid #003197;
+}
+
+.image_Icon {
+    border-radius: 5px;
+    border: 0.7px solid #0030977b;
+    padding: 30px 0px 20px;
+  
+}
+
+.Select {
+    border-radius: 5px;
+    border: 1px solid #ADADAD;
+    padding: 8px;
+}
+
+.btnInst {
+    border-radius: 5px;
+    background: #003197;
+    padding: 8px;
+}
+
+.btnInst:hover {
+    border-radius: 5px;
+    background: #284d9e;
+    padding: 8px;
+    transform: scale(0.98);
+    box-shadow: 0px 5px 15px #756b6b;
+
+}
+
+.Quotations {
+    border-radius: 7px;
+    border: 0.0001px solid #e9e4e4;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+}

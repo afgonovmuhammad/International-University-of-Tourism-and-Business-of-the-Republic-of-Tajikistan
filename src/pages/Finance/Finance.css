@@ -1,0 +1,33 @@
+@-webkit-keyframes rotate-scale-up{0%{-webkit-transform:scale(1) rotateZ(0);transform:scale(1) rotateZ(0)}50%{-webkit-transform:scale(2) rotateZ(180deg);transform:scale(2) rotateZ(180deg)}100%{-webkit-transform:scale(1) rotateZ(360deg);transform:scale(1) rotateZ(360deg)}}@keyframes rotate-scale-up{0%{-webkit-transform:scale(1) rotateZ(0);transform:scale(1) rotateZ(0)}50%{-webkit-transform:scale(2) rotateZ(180deg);transform:scale(2) rotateZ(180deg)}100%{-webkit-transform:scale(1) rotateZ(360deg);transform:scale(1) rotateZ(360deg)}}
+.main-1A .leftt {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+}
+
+.btnInst1 {
+    margin-top: 30px;
+    border-radius: 5px;
+    background: #003197;
+    padding: 10px;
+
+}
+
+.btnInst1:hover {
+    border-radius: 5px;
+    background: #284d9e;
+    padding: 9px;
+    transform: scale(0.98);
+    box-shadow: 0px 5px 15px #756b6b;
+}
+
+.faculty,
+.department {
+    border-radius: 5px;
+    border: 0.5px solid #003197;
+    padding: 30px;
+
+
+}
+

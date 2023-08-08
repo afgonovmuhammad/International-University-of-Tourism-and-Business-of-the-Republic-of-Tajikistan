@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+.Diss {
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.Name {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 49, 151, 0.50);
+    padding: 8px;
+}
+
+.zeroOne55 {
+    color: rgba(0, 0, 0, 0.293);
+    font-family: "Montserrat", sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    transform: rotate(90deg);
+
+}
+
+.btnDiss {
+    border-radius: 10px;
+    background: #003197;
+    padding: 8px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFF;
+
+}
+
+.btnDiss:hover {
+    border-radius: 10px;
+    background: #284d9e;
+    transform: scale(0.98);
+    box-shadow: 0px 5px 15px #756b6b;
+}
+
+.TebleDiss {
+    width: 100%;
+    border: 1px solid rgba(0, 49, 151, 0.50);
+    border-radius: 15px;
+    border-radius: 15px;
+}
+
+
+
+.TebleDiss tr th {
+    border: 1px solid rgba(0, 49, 151, 0.50);
+    padding: 5px 35px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.TebleDiss tr td {
+    font-size: 18px;
+    text-align: start;
+    border: 1px solid rgba(0, 49, 151, 0.50);
+}
+
+.TebleDiss tr td:nth-child(1) {
+    text-align: center;
+    width: 15%;
+    border: 1px solid rgba(0, 49, 151, 0.50);
+    padding: 5px 40px;
+}
+
+.TebleDiss tr td:nth-child(2) {
+    width: 55%;
+    border: 1px solid rgba(0, 49, 151, 0.50);
+    padding: 5px 35px;
+}
+.TebleDiss tr td:nth-child(3) {
+    width: 30%;
+    border: 1px solid rgba(0, 49, 151, 0.50);
+    padding: 5px 40px;
+
+}
