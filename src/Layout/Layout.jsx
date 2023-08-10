@@ -59,8 +59,6 @@ const Layout = () => {
                 <div className=' text-[#fff] font-[400] text-[14px]'>
                     <div className="navbar     ">
                         <div className='bg-[#003197]'>
-                           
-                           
                             <div className="topNavbar w-[80%] mx-auto  py-[20px] px-[10px] flex justify-between">
                                 <div className='leftNavbar-1 flex gap-x-[25px]'>
 

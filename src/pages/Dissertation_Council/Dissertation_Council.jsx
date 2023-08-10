@@ -54,7 +54,7 @@ const Dissertation_Council = () => {
 
                 <li className='LII'></li>
                 {
-                  pathname == "/Dissertation_Council/LayoutDiss" || pathname == "/Dissertation_Council/LayoutDiss" ?
+                  pathname == "/Dissertation_Council/LayoutDiss" || pathname == "/Dissertation_Council/LayoutDiss" ||pathname == "/Dissertation_Council/LayoutDiss/Khudoerov_Sh_Kh" ?
                     <li className='LI' style={act}>
                       <Link to="LayoutDiss" >
                         {t("text72")}

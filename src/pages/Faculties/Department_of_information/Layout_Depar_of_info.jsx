@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
 
 import './Department_of_information.css'
 
 const Layout_Depar_of_info = () => {
+    useEffect(() => {
+        window.scrollTo({ top: 0, left: 0,  })
+    }, [])
     const { t } = useTranslation()
     const { pathname } = useLocation()
 
