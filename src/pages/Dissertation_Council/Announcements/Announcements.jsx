@@ -83,7 +83,6 @@ const Announcements = () => {
                                             </div>
                                         </div>
                                     </button>
-
                                 </div>
 
                             </div>
@@ -103,7 +102,6 @@ const Announcements = () => {
                                     </button>
 
                                 </div>
-
                             </div>
                             <div className='Announ p-[20px] border '>
                                 <h2 className='w-[85%] hover:text-[#120097]'>{t("text29")}</h2>

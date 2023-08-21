@@ -249,7 +249,7 @@ const Main = () => {
                 </div>
                 <div className=''>
                   <div className='overflow-hidden rounded-[5px] '>
-                    <img className=' w-[100%] transition duration-300 ease-in-out hover:scale-105' src={img3} alt="" />
+                    <img className=' w-[100%] transition duration-300 ease-in-out hover:scale-110' src={img3} alt="" />
                   </div>
                   <p className=' opacity-[0.9] py-[7px] text-[#A9A9A9]'>13.04.2023</p>
                   <h2 className='w-[90%]'>{t("text29B")}</h2>
@@ -262,14 +262,14 @@ const Main = () => {
                       </div>
                     </div>
                   </button>
+
                 </div>
                 <div className='py-[25px] '>
                   <div className='overflow-hidden rounded-[5px] '>
-                    <img className=' w-[100%] transition duration-300 ease-in-out hover:scale-105' src={img4} alt="" />
+                    <img className=' w-[100%] transition duration-300 ease-in-out hover:scale-110' src={img4} alt="" />
                   </div>
                   <p className=' py-[7px] text-[#A9A9A9]'>06.04.2023</p>
                   <h2 className='w-[90%]'>{t("text29C")}</h2>
-
 
                   <button className=' mt-[50px] opacity-[0.2] hover:opacity-[1] hover:text-[#003197] hover:font-[500]'>
                     <div className='flex  gap-[15px]'>
@@ -280,13 +280,12 @@ const Main = () => {
                     </div>
                   </button>
 
-
                 </div>
                 <div className='py-[25px] '>
                   <div className='overflow-hidden rounded-[5px] '>
-                    <img className=' w-[100%] transition duration-300 ease-in-out hover:scale-105' src={img2} alt="" />
+                    <img className=' w-[100%] transition duration-300 ease-in-out hover:scale-110' src={img2} alt="" />
                   </div>
-                  <p className='  py-[7px] text-[#A9A9A9]'>06.04.2023</p>
+                  <p className='  py-[7px] text-[#A9A9A9]'>08.04.2023</p>
                   <h2 className='w-[90%]'>{t("text29A")}</h2>
 
                   <button className='mt-[5%]  opacity-[0.2] hover:opacity-[1] hover:text-[#003197] hover:font-[500]'>
@@ -362,6 +361,7 @@ const Main = () => {
                   </div>
                 </Link>
               </div>
+
               <div className="facultet relative " data-aos="flip-down" data-aos-duration="3000">
                 <img className='z-[0] ml-[-10px] w-[100%]' src={fact2} alt="" />
                 <div className=' w-[96%] absolute top-3 ' >
@@ -371,6 +371,7 @@ const Main = () => {
                   <img className=' w-[100%]' src={fact1A} alt="" />
                 </div>
               </div>
+
               <div className="facultet relative " data-aos="flip-right" data-aos-duration="2500">
                 {/* <img className=' ml-[0px] rounded-[5px] mt-[13px] w-[100%] m-auto' src={fact3} alt="" /> */}
                 <img className=' ml-[0px] rounded-[5px] mt-[13px] w-[475px] h-[360px]  m-auto' src={fact3A} alt="" />
@@ -381,6 +382,7 @@ const Main = () => {
                   <img className=' w-[100%]' src={fact1A} alt="" />
                 </div>
               </div>
+
               <div className="facultet relative " data-aos="flip-right" data-aos-duration="2500">
                 <img className='z-[0] ] w-[475px] mt-[13px] h-[360px] ml-[0px]' src={fact4} alt="" />
                 <div className=' w-[96%] absolute top-3 ' >
@@ -390,6 +392,7 @@ const Main = () => {
                   <img className=' w-[100%]' src={fact1A} alt="" />
                 </div>
               </div>
+
               <div className="facultet relative " data-aos="flip-up" data-aos-duration="3000">
                 <img className='z-[0] ml-[0px] mt-[13px] w-[475px] h-[360px]' src={fact5} alt="" />
                 <div className=' w-[96%] absolute top-3 ' >
@@ -399,12 +402,8 @@ const Main = () => {
                   <img className=' w-[100%]' src={fact1A} alt="" />
                 </div>
               </div>
-
             </div>
-
           </div>
-
-
         </div>
       </div>
 
@@ -543,9 +542,6 @@ const Main = () => {
           </div>
         </div>
       </div>
-
-
-
     </div>
   )
 }
